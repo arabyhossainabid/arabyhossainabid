@@ -35,11 +35,11 @@ function HeroSection() {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-[#0d0d0d] py-20 px-4 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center bg-[#0d0d0d] py-10 md:py-20 px-4 relative overflow-hidden">
       {/* Advanced Background */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#deff0008_1px,transparent_1px),linear-gradient(to_bottom,#deff0008_1px,transparent_1px)] bg-[size:80px_80px]" />
-        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[#deff00]/10 rounded-full blur-[150px] opacity-40 animate-pulse" />
+        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[var(--neon-yellow)]/10 rounded-full blur-[150px] opacity-40 animate-pulse" />
         <div className="absolute bottom-0 left-0 w-[800px] h-[800px] bg-purple-500/10 rounded-full blur-[150px] opacity-30 animate-pulse" style={{ animationDelay: '1s' }} />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-[120px] opacity-20 animate-pulse" style={{ animationDelay: '2s' }} />
       </div>
@@ -50,10 +50,10 @@ function HeroSection() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-[#deff00]/20 to-purple-500/20 border border-[#deff00]/30 mb-8 backdrop-blur-sm"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-[var(--neon-yellow)]/20 to-purple-500/20 border border-[var(--neon-yellow)]/30 mb-8 backdrop-blur-sm"
           >
-            <Sparkles className="w-4 h-4 text-[#deff00] animate-pulse" />
-            <span className="text-sm font-semibold bg-gradient-to-r from-[#deff00] to-white bg-clip-text text-transparent">
+            <Sparkles className="w-4 h-4 text-[var(--neon-yellow)] animate-pulse" />
+            <span className="text-sm font-semibold bg-gradient-to-r from-[var(--neon-yellow)] to-white bg-clip-text text-transparent">
               Full-Stack Developer &amp; Frontend Developer
             </span>
           </motion.div>
@@ -62,11 +62,11 @@ function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-[1.1]"
+            className="text-4xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-[1.1]"
           >
             Crafting Digital
             <br />
-            <span className="bg-gradient-to-r from-[#deff00] via-yellow-300 to-[#deff00] bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
+            <span className="bg-gradient-to-r from-[var(--neon-yellow)] via-yellow-300 to-[var(--neon-yellow)] bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">
               Masterpieces
             </span>
             <br />
@@ -81,7 +81,7 @@ function HeroSection() {
           >
             I&apos;m <span className="text-white font-bold">Araby Hossain Abid</span>, a passionate full-stack developer
             specializing in building exceptional digital experiences with
-            <span className="text-[#deff00] font-semibold"> React, Next.js, TypeScript</span>, and modern technologies.
+            <span className="text-[var(--neon-yellow)] font-semibold"> React, Next.js, TypeScript</span>, and modern technologies.
           </motion.p>
 
           <motion.div
@@ -92,7 +92,7 @@ function HeroSection() {
           >
             <Button
               onClick={handleViewWork}
-              className="group px-8 py-6 bg-[#deff00] text-black font-bold rounded-full hover:shadow-[0_0_40px_0px_#deff00] transition-all duration-300 text-lg"
+              className="group px-8 py-6 bg-[var(--neon-yellow)] text-black font-bold rounded-full hover:shadow-[0_0_40px_0px_var(--neon-yellow)] transition-all duration-300 text-lg"
             >
               <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
               View My Work
@@ -100,7 +100,7 @@ function HeroSection() {
             </Button>
             <Button
               onClick={handleDownloadCV}
-              className="group px-8 py-6 bg-white/5 text-white font-semibold rounded-full border-2 border-white/10 hover:bg-white/10 hover:border-[#deff00]/50 transition-all duration-300 text-lg backdrop-blur-sm"
+              className="group px-8 py-6 bg-white/5 text-white font-semibold rounded-full border-2 border-white/10 hover:bg-white/10 hover:border-[var(--neon-yellow)]/50 transition-all duration-300 text-lg backdrop-blur-sm"
             >
               <Download className="w-5 h-5 mr-2" />
               Download CV
@@ -118,7 +118,7 @@ function HeroSection() {
             <p className="text-gray-500 text-sm uppercase tracking-[0.3em] font-bold">Tech Stack Mastery</p>
           </div>
 
-          <div className="grid grid-cols-4 md:grid-cols-8 gap-4 md:gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-4 md:gap-6 mt-12 max-w-4xl mx-auto">
             {techStack.map((tech, index) => (
               <motion.div
                 key={tech.name}
@@ -128,7 +128,7 @@ function HeroSection() {
                 whileHover={{ scale: 1.15, y: -8, rotate: 5 }}
                 className="group relative"
               >
-                <div className="flex flex-col items-center gap-3 p-4 md:p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-[#deff00]/40 transition-all backdrop-blur-sm hover:bg-white/10">
+                <div className="flex flex-col items-center gap-3 p-4 md:p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-[var(--neon-yellow)]/40 transition-all backdrop-blur-sm hover:bg-white/10">
                   <div className="relative">
                     <tech.icon
                       className="w-10 h-10 md:w-12 md:h-12 transition-all duration-300 group-hover:drop-shadow-[0_0_10px_currentColor]"

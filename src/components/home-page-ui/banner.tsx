@@ -3,7 +3,13 @@
 import React, { useMemo, useRef } from "react";
 import { FlipWords } from "../ui/flip-words";
 import { useRouter } from "next/navigation";
-import Hyperspeed from "../ui/hyperspeed";
+import dynamic from "next/dynamic";
+
+const Hyperspeed = dynamic(() => import("../ui/hyperspeed"), {
+  ssr: false,
+  loading: () => <div className="absolute inset-0 bg-black" />
+});
+
 import { motion, useMotionValue, useSpring, useTransform } from "motion/react";
 import { ArrowRight, Github, Linkedin, Mail, Terminal, Code2, Cpu, Globe, ChevronDown, Sparkles } from "lucide-react";
 
@@ -104,12 +110,12 @@ function Banner() {
             className="pointer-events-none absolute -inset-px rounded-[2.5rem] opacity-0 transition duration-300 group-hover:opacity-100 z-30"
             style={{ maskImage, WebkitMaskImage: maskImage }}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-[#deff00]/20 to-purple-500/20 opacity-50 backdrop-blur-3xl" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[var(--neon-yellow)]/20 to-purple-500/20 opacity-50 backdrop-blur-3xl" />
           </motion.div>
 
           <div className="relative z-20 p-8 md:p-12 flex flex-col items-center text-center">
 
-            <div className="absolute -top-[300px] -right-[300px] w-[600px] h-[600px] bg-[#deff00]/10 blur-[150px] rounded-full pointer-events-none" />
+            <div className="absolute -top-[300px] -right-[300px] w-[600px] h-[600px] bg-[var(--neon-yellow)]/10 blur-[150px] rounded-full pointer-events-none" />
             <div className="absolute -bottom-[300px] -left-[300px] w-[600px] h-[600px] bg-purple-600/10 blur-[150px] rounded-full pointer-events-none" />
 
             <motion.div
@@ -119,7 +125,7 @@ function Banner() {
               className="mb-10"
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 shadow-inner backdrop-blur-md">
-                <Sparkles className="w-4 h-4 text-[#deff00]" />
+                <Sparkles className="w-4 h-4 text-[var(--neon-yellow)]" />
                 <span className="text-xs font-bold text-gray-200 tracking-widest uppercase">Open to Opportunities</span>
               </div>
             </motion.div>
@@ -131,7 +137,7 @@ function Banner() {
                 transition={{ delay: 0.3 }}
                 className="text-lg md:text-2xl font-medium text-gray-400"
               >
-                Hi, I&apos;m <span className="text-[#deff00]">Araby Hossain</span>
+                Hi, I&apos;m <span className="text-[var(--neon-yellow)]">Araby Hossain</span>
               </motion.h2>
 
               <motion.div
@@ -139,10 +145,10 @@ function Banner() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.4, type: "spring", stiffness: 100 }}
               >
-                <h1 className="text-6xl md:text-7xl lg:text-8xl font-black tracking-tighter text-white drop-shadow-2xl">
+                <h1 className="text-4xl md:text-7xl lg:text-8xl font-black tracking-tighter text-white drop-shadow-2xl">
                   FULL-STACK
                   <br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#deff00] via-white to-[#deff00] bg-[length:200%_auto] animate-shine">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--neon-yellow)] via-white to-[var(--neon-yellow)] bg-[length:200%_auto] animate-shine">
                     DEVELOPER
                   </span>
                 </h1>
@@ -155,7 +161,7 @@ function Banner() {
                 className="text-xl md:text-3xl font-light text-gray-300 h-12 flex items-center justify-center gap-2 pt-4"
               >
                 <span className="hidden md:inline">Specializing in</span>
-                <FlipWords words={words} className="text-[#deff00] font-bold" />
+                <FlipWords words={words} className="text-[var(--neon-yellow)] font-bold" />
               </motion.div>
             </div>
 
@@ -167,7 +173,7 @@ function Banner() {
             >
               <button
                 onClick={handleContactClick}
-                className="group relative w-full sm:w-auto px-12 py-5 bg-[#deff00] text-black font-black text-lg rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_rgba(222,255,0,0.5)] active:scale-95"
+                className="group relative w-full sm:w-auto px-12 py-5 bg-[var(--neon-yellow)] text-black font-black text-lg rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_rgba(222,255,0,0.5)] active:scale-95"
               >
                 <span className="relative z-10 flex items-center justify-center gap-3">
                   LET&apos;S TALK
@@ -178,7 +184,7 @@ function Banner() {
 
               <button
                 onClick={handleProjectsClick}
-                className="group w-full sm:w-auto px-12 py-5 bg-white/5 text-white font-bold text-lg rounded-full border border-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-white/10 hover:border-[#deff00]/50 active:scale-95"
+                className="group w-full sm:w-auto px-12 py-5 bg-white/5 text-white font-bold text-lg rounded-full border border-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-white/10 hover:border-[var(--neon-yellow)]/50 active:scale-95"
               >
                 VIEW WORK
               </button>
@@ -196,7 +202,7 @@ function Banner() {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 rounded-full bg-white/5 text-gray-400 hover:text-black hover:bg-[#deff00] transition-all duration-300 hover:scale-110"
+                  className="p-3 rounded-full bg-white/5 text-gray-400 hover:text-black hover:bg-[var(--neon-yellow)] transition-all duration-300 hover:scale-110"
                   aria-label={link.label}
                 >
                   {link.icon}
@@ -218,7 +224,7 @@ function Banner() {
             transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
             className="p-2 rounded-full border border-white/10 bg-black/20 backdrop-blur-sm"
           >
-            <ChevronDown className="w-5 h-5 text-[#deff00]" />
+            <ChevronDown className="w-5 h-5 text-[var(--neon-yellow)]" />
           </motion.div>
         </motion.div>
 

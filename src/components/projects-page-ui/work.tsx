@@ -50,7 +50,7 @@ function Work() {
     <section className="bg-[#0d0d0d] py-20 px-4 relative overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-1/3 right-0 w-[500px] h-[500px] bg-[#deff00]/5 rounded-full blur-[100px] opacity-30" />
+        <div className="absolute top-1/3 right-0 w-[500px] h-[500px] bg-[var(--neon-yellow)]/5 rounded-full blur-[100px] opacity-30" />
         <div className="absolute bottom-1/3 left-0 w-[500px] h-[500px] bg-purple-500/5 rounded-full blur-[100px] opacity-20" />
       </div>
 
@@ -63,14 +63,14 @@ function Work() {
           className="mb-16"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-6">
-            <Sparkles className="w-4 h-4 text-[#deff00]" />
+            <Sparkles className="w-4 h-4 text-[var(--neon-yellow)]" />
             <span className="text-sm text-gray-300">Portfolio</span>
           </div>
 
           <h2 className="text-5xl md:text-7xl font-bold text-white leading-tight">
-            Take <span className="text-[#deff00]">a Look</span> at
+            Take <span className="text-[var(--neon-yellow)]">a Look</span> at
             <br />
-            My <span className="text-[#deff00]">Past</span> Work
+            My <span className="text-[var(--neon-yellow)]">Past</span> Work
           </h2>
         </motion.div>
 
@@ -83,7 +83,7 @@ function Work() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className="bg-white/5 border-white/10 overflow-hidden hover:border-[#deff00]/30 transition-all duration-300 hover:-translate-y-2 group">
+              <Card className="bg-white/5 border-white/10 overflow-hidden hover:border-[var(--neon-yellow)]/30 transition-all duration-300 hover:-translate-y-2 group">
                 <div className="relative h-64 overflow-hidden">
                   <Image
                     src={project.img}
@@ -94,7 +94,7 @@ function Work() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center gap-3 pb-6">
                     <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      <Button size="sm" className="bg-[#deff00] text-black hover:bg-[#deff00]/90">
+                      <Button size="sm" className="bg-[var(--neon-yellow)] text-black hover:bg-[var(--neon-yellow)]/90">
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Live Demo
                       </Button>
@@ -109,7 +109,7 @@ function Work() {
                 </div>
 
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-[#deff00] transition-colors">
+                  <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-[var(--neon-yellow)] transition-colors">
                     {project.title}
                   </h3>
                   <p className="text-gray-400 text-sm mb-4">{project.subtitle}</p>
@@ -117,7 +117,7 @@ function Work() {
                     {project.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="px-3 py-1 rounded-full bg-[#deff00]/10 text-[#deff00] text-xs font-medium border border-[#deff00]/20"
+                        className="px-3 py-1 rounded-full bg-[var(--neon-yellow)]/10 text-[var(--neon-yellow)] text-xs font-medium border border-[var(--neon-yellow)]/20"
                       >
                         {tag}
                       </span>

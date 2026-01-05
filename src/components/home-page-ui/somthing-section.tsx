@@ -21,7 +21,7 @@ function SomthingSection() {
       {/* Animated Background Grid */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)] bg-[size:64px_64px]" />
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#deff00]/10 rounded-full blur-[150px] opacity-30" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[var(--neon-yellow)]/10 rounded-full blur-[150px] opacity-30" />
         <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[120px] opacity-20" />
         <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-blue-500/10 rounded-full blur-[120px] opacity-20" />
       </div>
@@ -35,7 +35,7 @@ function SomthingSection() {
           className="mb-8"
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8">
-            <Sparkles className="w-4 h-4 text-[#deff00]" />
+            <Sparkles className="w-4 h-4 text-[var(--neon-yellow)]" />
             <span className="text-sm text-gray-300">Available for new projects</span>
           </div>
         </motion.div>
@@ -45,10 +45,10 @@ function SomthingSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white leading-tight mb-8"
+          className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white leading-tight mb-8"
         >
           Hi, I&apos;m{" "}
-          <span className="text-[#deff00] inline-block">
+          <span className="text-[var(--neon-yellow)] inline-block">
             Araby Hossain Abid
           </span>
         </motion.h1>
@@ -83,7 +83,7 @@ function SomthingSection() {
         >
           <button
             onClick={handleProjectClick}
-            className="group px-8 py-4 bg-[#deff00] text-black font-bold rounded-full hover:shadow-[0_0_30px_0px_#deff00] transition-all duration-300 flex items-center gap-2"
+            className="group px-8 py-4 bg-[var(--neon-yellow)] text-black font-bold rounded-full hover:shadow-[0_0_30px_0px_var(--neon-yellow)] transition-all duration-300 flex items-center gap-2"
           >
             <Rocket className="w-5 h-5" />
             View My Work
@@ -91,7 +91,7 @@ function SomthingSection() {
           </button>
           <button
             onClick={handleContactClick}
-            className="group px-8 py-4 bg-white/5 text-white font-semibold rounded-full border border-white/10 hover:bg-white/10 hover:border-[#deff00]/50 transition-all duration-300 flex items-center gap-2"
+            className="group px-8 py-4 bg-white/5 text-white font-semibold rounded-full border border-white/10 hover:bg-white/10 hover:border-[var(--neon-yellow)]/50 transition-all duration-300 flex items-center gap-2"
           >
             <Code2 className="w-5 h-5" />
             Let&apos;s Talk
@@ -105,7 +105,7 @@ function SomthingSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.5 }}
-          className="grid grid-cols-3 gap-8 mt-20 max-w-3xl mx-auto"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 md:mt-20 max-w-3xl mx-auto"
         >
           {[
             { number: "50+", label: "Projects Completed" },
@@ -113,7 +113,7 @@ function SomthingSection() {
             { number: "2+", label: "Years Experience" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[#deff00] mb-2">
+              <div className="text-4xl md:text-5xl font-bold text-[var(--neon-yellow)] mb-2">
                 {stat.number}
               </div>
               <div className="text-sm text-gray-400">{stat.label}</div>

@@ -43,7 +43,7 @@ export default function ProjectsStats() {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                        Proven Track <span className="text-[#deff00]">Record</span>
+                        Proven Track <span className="text-[var(--neon-yellow)]">Record</span>
                     </h2>
                     <p className="text-gray-400 text-lg max-w-2xl mx-auto">
                         Numbers that speak for themselves
@@ -59,12 +59,12 @@ export default function ProjectsStats() {
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                         >
-                            <Card className="bg-white/5 border-white/10 hover:border-[#deff00]/30 transition-all duration-300 hover:-translate-y-2 group h-full">
+                            <Card className="bg-white/5 border-white/10 hover:border-[var(--neon-yellow)]/30 transition-all duration-300 hover:-translate-y-2 group h-full">
                                 <CardContent className="p-6 text-center">
-                                    <div className="w-14 h-14 rounded-full bg-[#deff00]/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-[#deff00] transition-colors">
-                                        <stat.icon className="w-7 h-7 text-[#deff00] group-hover:text-black transition-colors" />
+                                    <div className="w-14 h-14 rounded-full bg-[var(--neon-yellow)]/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-[var(--neon-yellow)] transition-colors">
+                                        <stat.icon className="w-7 h-7 text-[var(--neon-yellow)] group-hover:text-black transition-colors" />
                                     </div>
-                                    <h3 className="text-4xl md:text-5xl font-bold text-[#deff00] mb-2">
+                                    <h3 className="text-4xl md:text-5xl font-bold text-[var(--neon-yellow)] mb-2">
                                         {stat.value}
                                     </h3>
                                     <p className="text-white font-semibold mb-1">{stat.label}</p>

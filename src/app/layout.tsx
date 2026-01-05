@@ -3,8 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/pages/navbar/navbar";
 import AOSWrapper from "../components/AOSWrapper";
-import SplashCursor from "@/components/SplashCursor";
 import PageTransition from "@/components/PageTransition";
+import SplashCursorWrapper from "@/components/SplashCursorWrapper";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -35,7 +35,7 @@ export default function RootLayout({
       >
         <AOSWrapper />
         <Navbar />
-        <SplashCursor />
+        <SplashCursorWrapper />
         <PageTransition>
           <main>{children}</main>
         </PageTransition>

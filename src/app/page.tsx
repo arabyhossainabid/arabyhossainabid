@@ -1,13 +1,16 @@
 "use client";
 
 import { motion } from "motion/react";
+import dynamic from "next/dynamic";
 import Banner from "@/components/home-page-ui/banner";
+// Keep Hero immediately available for LCP
 import HeroSection from "@/components/home-page-ui/hero-section";
-import ShowcaseCarousel from "@/components/home-page-ui/showcase-carousel";
-import Customers from "@/components/home-page-ui/customers";
-import DesignScroll from "@/components/home-page-ui/design-scroll";
-import SomthingSection from "@/components/home-page-ui/somthing-section";
-import Topnotch from "@/components/home-page-ui/top–notch";
+
+const ShowcaseCarousel = dynamic(() => import("@/components/home-page-ui/showcase-carousel"));
+const Customers = dynamic(() => import("@/components/home-page-ui/customers"));
+const DesignScroll = dynamic(() => import("@/components/home-page-ui/design-scroll"));
+const SomthingSection = dynamic(() => import("@/components/home-page-ui/somthing-section"));
+const Topnotch = dynamic(() => import("@/components/home-page-ui/top–notch"));
 
 // Reusable animation wrapper
 const FadeUp = ({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) => (

@@ -37,7 +37,7 @@ const FloatingDockMobile = ({
 }) => {
   const [open, setOpen] = useState(false);
   return (
-    <div className={cn("relative block md:hidden", className)}>
+    <div className={cn("hidden", className)}>
       <AnimatePresence>
         {open && (
           <motion.div
@@ -96,7 +96,7 @@ const FloatingDockDesktop = ({
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
       className={cn(
-        "mx-auto hidden h-16 items-end gap-4 rounded-2xl bg-white/80 backdrop-blur-xl px-4 pb-3 md:flex dark:bg-neutral-900/80 border border-gray-200/50 dark:border-neutral-800/50 shadow-xl shadow-black/5 dark:shadow-black/20",
+        "mx-auto flex h-16 items-end gap-4 rounded-2xl bg-white/80 backdrop-blur-xl px-4 pb-3 dark:bg-neutral-900/80 border border-gray-200/50 dark:border-neutral-800/50 shadow-xl shadow-black/5 dark:shadow-black/20",
         className,
       )}
     >

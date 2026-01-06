@@ -36,7 +36,7 @@ const ContactMe = () => {
             "service_whfm8k9",    // Service ID
             "template_j3h9isf",   // Template ID
             form,
-            "ZzCef19tcZkULWCsB"   // Public Key
+            "ek2-41K2axtsA78eW"   // Public Key
         )
             .then((response) => {
                 setSubmitStatus("success");
@@ -48,6 +48,7 @@ const ContactMe = () => {
                 setTimeout(() => setSubmitStatus("idle"), 5000);
             })
             .catch((error) => {
+                console.error("EmailJS Error:", error);
                 setSubmitStatus("error");
                 setIsSubmitting(false);
 

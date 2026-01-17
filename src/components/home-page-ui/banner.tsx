@@ -137,7 +137,7 @@ function Banner() {
                 transition={{ delay: 0.3 }}
                 className="text-lg md:text-2xl font-medium text-gray-400"
               >
-                Hi, I&apos;m <span className="text-[var(--neon-yellow)]">Araby Hossain</span>
+                Hi, I&apos;m <span className="text-[var(--neon-yellow)]">Araby Hossain Abid</span>
               </motion.h2>
 
               <motion.div

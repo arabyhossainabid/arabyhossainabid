@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useMemo, useRef } from "react";
+import React, { useMemo, useRef, useState, useEffect } from "react";
+import Link from "next/link";
 import { FlipWords } from "../ui/flip-words";
-import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 
 const Hyperspeed = dynamic(() => import("../ui/hyperspeed"), {
@@ -14,16 +14,14 @@ import { motion, useMotionValue, useSpring, useTransform } from "motion/react";
 import { ArrowRight, Github, Linkedin, Mail, Terminal, Code2, Cpu, Globe, ChevronDown, Sparkles } from "lucide-react";
 
 function Banner() {
-  const router = useRouter();
+  const [showHyperspeed, setShowHyperspeed] = useState(false);
   const words = ["Full-Stack Developer", "UI/UX Enthusiast", "Problem Solver", "Creative Thinker"];
 
-  const handleContactClick = () => {
-    router.push("/contact");
-  };
-
-  const handleProjectsClick = () => {
-    router.push("/projects");
-  };
+  // Defer heavy Hyperspeed (Three.js) loading by 2 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => setShowHyperspeed(true), 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
   const socialLinks = [
     { icon: <Github className="w-5 h-5" />, href: "https://github.com/arabyhossainabid", label: "GitHub" },
@@ -89,8 +87,10 @@ function Banner() {
     <section className="relative w-full min-h-screen overflow-hidden flex items-center justify-center perspective-1000">
 
       <div className="absolute inset-0 -z-10">
-        {/* @ts-expect-error - Ignoring strict type check for options */}
-        <Hyperspeed effectOptions={hyperspeedOptions} />
+        {showHyperspeed && (
+          /* @ts-expect-error - Ignoring strict type check for options */
+          <Hyperspeed effectOptions={hyperspeedOptions} />
+        )}
       </div>
 
       <div className="relative z-10 container mx-auto px-4 flex flex-col items-center justify-center h-full py-8">
@@ -98,9 +98,9 @@ function Banner() {
         <motion.div
           ref={ref}
           onMouseMove={onMouseMove}
-          initial={{ opacity: 0, scale: 0.9, rotateX: 10 }}
+          initial={{ opacity: 1, scale: 1, rotateX: 0 }}
           animate={{ opacity: 1, scale: 1, rotateX: 0 }}
-          transition={{ duration: 1, ease: "easeOut" }}
+          transition={{ duration: 0.3, ease: "easeOut" }}
           className="relative group rounded-[2.5rem] bg-black/40 backdrop-blur-2xl border border-white/10 shadow-[0_0_100px_rgba(0,0,0,0.8)] max-w-5xl w-full overflow-hidden"
           style={{
             transformStyle: "preserve-3d",
@@ -140,11 +140,7 @@ function Banner() {
                 Hi, I&apos;m <span className="text-[var(--neon-yellow)]">Araby Hossain Abid</span>
               </motion.h2>
 
-              <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.4, type: "spring", stiffness: 100 }}
-              >
+              <div className="animate-[fadeIn_0.5s_ease-out]">
                 <h1 className="text-4xl md:text-7xl lg:text-8xl font-black tracking-tighter text-white drop-shadow-2xl">
                   FULL-STACK
                   <br />
@@ -152,7 +148,7 @@ function Banner() {
                     DEVELOPER
                   </span>
                 </h1>
-              </motion.div>
+              </div>
 
               <motion.div
                 initial={{ opacity: 0 }}
@@ -171,23 +167,23 @@ function Banner() {
               transition={{ delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-6 w-full justify-center items-center mb-12"
             >
-              <button
-                onClick={handleContactClick}
-                className="group relative w-full sm:w-auto px-12 py-5 bg-[var(--neon-yellow)] text-black font-black text-lg rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_rgba(222,255,0,0.5)] active:scale-95"
+              <Link
+                href="/contact"
+                className="group relative w-full sm:w-auto px-12 py-5 bg-[var(--neon-yellow)] text-black font-black text-lg rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_50px_rgba(222,255,0,0.5)] active:scale-95 flex items-center justify-center"
               >
                 <span className="relative z-10 flex items-center justify-center gap-3">
                   LET&apos;S TALK
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
                 </span>
                 <div className="absolute inset-0 bg-white/50 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-              </button>
+              </Link>
 
-              <button
-                onClick={handleProjectsClick}
-                className="group w-full sm:w-auto px-12 py-5 bg-white/5 text-white font-bold text-lg rounded-full border border-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-white/10 hover:border-[var(--neon-yellow)]/50 active:scale-95"
+              <Link
+                href="/projects"
+                className="group w-full sm:w-auto px-12 py-5 bg-white/5 text-white font-bold text-lg rounded-full border border-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-white/10 hover:border-[var(--neon-yellow)]/50 active:scale-95 flex items-center justify-center"
               >
                 VIEW WORK
-              </button>
+              </Link>
             </motion.div>
 
             <motion.div

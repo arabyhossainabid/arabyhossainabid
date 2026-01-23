@@ -128,8 +128,15 @@ body {
     text-rendering: optimizeLegibility;
   }
 
+  /* Optimize large text elements (like hero h1) */
+  h1 {
+    contain: layout style paint;
+    content-visibility: auto;
+  }
+
   /* Reduce motion for accessibility */
   @media (prefers-reduced-motion: reduce) {
+
     *,
     *::before,
     *::after {
@@ -156,4 +163,15 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #c5e600;
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

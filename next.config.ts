@@ -30,28 +30,10 @@ const nextConfig: NextConfig = {
   },
 
   experimental: {
-    optimizePackageImports: ['lucide-react', 'motion', '@tabler/icons-react'],
+    optimizePackageImports: ['lucide-react', 'motion', '@tabler/icons-react', 'react-icons', 'three', 'framer-motion'],
   },
 
   poweredByHeader: false,
-
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.optimization.splitChunks = {
-        chunks: 'all',
-        cacheGroups: {
-          default: false,
-          vendors: false,
-          commons: {
-            name: 'commons',
-            chunks: 'all',
-            minChunks: 2,
-          },
-        },
-      };
-    }
-    return config;
-  },
 };
 
 export default nextConfig;

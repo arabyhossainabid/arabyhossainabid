@@ -17,10 +17,9 @@ function Banner() {
   const [showHyperspeed, setShowHyperspeed] = useState(false);
   const words = ["Full-Stack Developer", "UI/UX Enthusiast", "Problem Solver", "Creative Thinker"];
 
-  // Defer heavy Hyperspeed (Three.js) loading by 2 seconds
+  // Load Hyperspeed immediately after hydration
   useEffect(() => {
-    const timer = setTimeout(() => setShowHyperspeed(true), 2000);
-    return () => clearTimeout(timer);
+    setShowHyperspeed(true);
   }, []);
 
   const socialLinks = [
@@ -95,12 +94,9 @@ function Banner() {
 
       <div className="relative z-10 container mx-auto px-4 flex flex-col items-center justify-center h-full py-8">
 
-        <motion.div
+        <div
           ref={ref}
           onMouseMove={onMouseMove}
-          initial={{ opacity: 1, scale: 1, rotateX: 0 }}
-          animate={{ opacity: 1, scale: 1, rotateX: 0 }}
-          transition={{ duration: 0.3, ease: "easeOut" }}
           className="relative group rounded-[2.5rem] bg-black/40 backdrop-blur-2xl border border-white/10 shadow-[0_0_100px_rgba(0,0,0,0.8)] max-w-5xl w-full overflow-hidden"
           style={{
             transformStyle: "preserve-3d",
@@ -207,7 +203,7 @@ function Banner() {
             </motion.div>
 
           </div>
-        </motion.div>
+        </div>
 
         <motion.div
           initial={{ opacity: 0 }}

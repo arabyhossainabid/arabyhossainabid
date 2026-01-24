@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { useRouter } from 'next/navigation';
-import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiNodedotjs, SiPostgresql, SiDocker, SiAmazon } from 'react-icons/si';
+import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiNodedotjs, SiPostgresql, SiPrisma, SiAmazon, SiExpress } from 'react-icons/si';
 import { Sparkles, Download, Play, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -14,8 +14,8 @@ const techStack = [
   { icon: SiTailwindcss, name: "Tailwind", color: "#06B6D4" },
   { icon: SiNodedotjs, name: "Node.js", color: "#339933" },
   { icon: SiPostgresql, name: "PostgreSQL", color: "#4169E1" },
-  { icon: SiDocker, name: "Docker", color: "#2496ED" },
-  { icon: SiAmazon, name: "AWS", color: "#FF9900" },
+  { icon: SiExpress, name: "express.js", color: "#2496ED" },
+  { icon: SiPrisma, name: "Prisma", color: "#000000" },
 ];
 
 function HeroSection() {

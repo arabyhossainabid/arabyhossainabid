@@ -27,19 +27,21 @@
 
 <br/><br/>
 
+<img src="https://komarev.com/ghpvc/?username=arabyhossainabid&label=Profile+Views&color=60A5FA&style=flat-square" />
+
 </div>
 
 ---
 
-## About Me
+## 🧑💻 About Me
 
 ### **Araby Hossain Abid**
 **Frontend Systems Architect**
 
-- **Expertise:** React.js, Next.js, and TypeScript
-- **Mission:** Transforming complex requirements into seamless digital experiences
-- **Philosophy:** Robust engineering combined with Exceptional User Experience
-- **Collaboration:** Always open to high-impact challenges and architectural collaborations
+- 🚀 **Expertise:** React.js, Next.js, and TypeScript
+- 🎯 **Mission:** Transforming complex requirements into seamless digital experiences
+- 💡 **Philosophy:** Robust engineering combined with Exceptional User Experience
+- 🤝 **Collaboration:** Always open to high-impact challenges and architectural collaborations
 
 I am a results-driven **Frontend Developer** specializing in building high-performance, scalable web applications. My core expertise lies at the intersection of robust engineering and exceptional user experience. I have extensive experience architecting complex solutions—from fractional real estate investment platforms to comprehensive dashboard systems—always with a focus on **mobile-first design** and **clean code architecture**.
 
@@ -111,7 +113,7 @@ I am a results-driven **Frontend Developer** specializing in building high-perfo
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=arabyhossainabid&theme=tokyonight&no-bg=true&margin-w=20" width="95%" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=arabyhossainabid&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=6" width="95%" alt="GitHub Trophies" />
 </div>
 
 ---

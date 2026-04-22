@@ -51,8 +51,6 @@ I am a results-driven **Frontend Developer** specializing in building high-perfo
 
 With a strong foundation in the modern JavaScript ecosystem (**React.js, Next.js, and TypeScript**), I build responsive, accessible, and heavily optimized user interfaces. I have extensive experience architecting complex solutions—from fractional real estate investment platforms to comprehensive dashboard systems—always with a focus on **mobile-first design** and **clean code architecture**.
 
-I thrive in collaborative environments where I can tackle complex technical challenges, contribute to design systems, and continuously push the boundaries of modern web development. My goal is to build software that not only functions flawlessly but also provides a premium feel to the end-user.
-
 ---
 
 ## 🛠️ Tech Stack
@@ -98,11 +96,11 @@ I thrive in collaborative environments where I can tackle complex technical chal
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 Analytics & Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=arabyhossainabid&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github" height="180" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=arabyhossainabid&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" height="180" alt="GitHub Stats" />
 &nbsp;&nbsp;
 <img src="https://streak-stats.demolab.com/?user=arabyhossainabid&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
 
@@ -112,34 +110,25 @@ I thrive in collaborative environments where I can tackle complex technical chal
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arabyhossainabid&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8" height="160" alt="Top Languages" />
 </div>
 
+<br/>
+
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=arabyhossainabid&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" width="95%" alt="Contribution Graph" />
 </div>
 
----
-
-## 🏆 GitHub Trophies
+<br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=arabyhossainabid&theme=tokyonight&no-frame=true&no-bg=false&margin-w=8&column=7" width="95%" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=arabyhossainabid&theme=tokyonight&no-bg=true&margin-w=20" width="95%" alt="GitHub Trophies" />
 </div>
 
 ---
-
-## 💬 Let's Connect & Build Something Great
 
 <div align="center">
 
 *"Great software is built at the intersection of engineering discipline and creative vision."*
 
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/Let's_connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arabyhossainabid/)
-[![Portfolio](https://img.shields.io/badge/View_My_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://arabyhossainabid.vercel.app/)
-
 </div>
-
----
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&animation=fadeIn" width="100%" />

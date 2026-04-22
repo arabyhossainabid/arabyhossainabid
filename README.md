@@ -1,26 +1,24 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=3B82F6&height=250&section=header&text=Araby%20Hossain%20Abid&fontSize=80&fontAlignY=35&desc=Frontend%20Developer%20|%20Scalable%20Web%20Architect&descAlignY=55" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=timeGradient&height=200&section=header&text=Araby%20Hossain%20Abid&fontSize=70&fontAlignY=40&desc=Frontend%20Developer%20%7C%20React%20%26%20Next.js&descAlignY=65&animation=fadeIn" alt="Header Banner" />
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=3B82F6&center=true&vCenter=true&width=800&lines=%E2%9E%A4+Transforming+ideas+into+high-performance+apps;%E2%9E%A4+Specializing+in+React.js+%26+Next.js;%E2%9E%A4+Obsessed+with+Clean+Architecture+%26+UI/UX;%E2%9E%A4+Building+mobile-first%2C+accessible+interfaces" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Building+Mobile-First+Web+Applications;Crafting+Seamless+User+Experiences;Scaling+with+React+%26+Next.js;Open+to+Exciting+Opportunities!" alt="Typing SVG" />
 </p>
 
-<!-- SOCIALS & VISITS -->
+<!-- SOCIALS -->
 <div align="center">
-  <a href="https://www.facebook.com/arabyhossainabid.dev" target="_blank"><img src="https://img.shields.io/badge/Facebook-%231877F2?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/></a>
-  <a href="https://www.linkedin.com/in/arabyhossainabid/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://arabyhossainabid.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://drive.google.com/file/d/14UnIA09xJTwsgHgsD5jhFFuWwsf_NMc9/view?usp=drive_link" target="_blank"><img src="https://img.shields.io/badge/Resume-059669?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Resume"/></a>
-  <br><br>
-  <img src="https://komarev.com/ghpvc/?username=arabyhossainabid&label=Profile%20Views&color=3B82F6&style=flat-square" alt="Profile Views" />
+  <a href="https://arabyhossainabid.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-1E293B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/arabyhossainabid/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.facebook.com/arabyhossainabid.dev"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
+  <a href="mailto:arabyhossainabid@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://drive.google.com/file/d/14UnIA09xJTwsgHgsD5jhFFuWwsf_NMc9/view?usp=drive_link"><img src="https://img.shields.io/badge/Resume-059669?style=for-the-badge&logo=google-drive&logoColor=white" alt="Resume" /></a>
 </div>
 
 <br />
 
----
-
-## 💫 About Me
+<!-- ABOUT ME -->
+### 👨‍💻 A Little About Me
 
 As a **Frontend Developer**, I specialize in transforming complex requirements into clean, high-performance, and scalable web applications. My core expertise lies at the intersection of robust engineering and exceptional user experience.
 
@@ -35,15 +33,10 @@ Beyond just writing functional code, I care deeply about performance optimizatio
 ## 💻 Tech Stack & Tools
 
 <div align="center">
-  
-### Frontend & UI
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-000000?style=for-the-badge&logo=next.js&logoColor=white) 
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) 
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,styledcomponents,vite&theme=dark" alt="Frontend Tools" />
+  </a>
+  <br><br>
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
 ![DaisyUI](https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white) 
 ![Radix UI](https://img.shields.io/badge/radix%20ui-161618.svg?style=for-the-badge&logo=radix-ui&logoColor=white)

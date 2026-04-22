@@ -1,62 +1,76 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Araby%20Hossain%20Abid&fontSize=60&fontAlignY=35&desc=Frontend%20Developer%20|%20React%20%26%20Next.js&descAlignY=55" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Araby%20Hossain%20Abid&fontSize=70&fontAlignY=35&desc=Frontend%20Engineer%20|%20React%20&%20Next.js%20Specialist&descAlignY=55&animation=fadeIn" alt="Header Banner" />
 </div>
 
-<h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=Hi+there!+%F0%9F%91%8B+I'm+Araby+Hossain+Abid;Frontend+Web+Developer;React+%26+Next.js+Specialist;Building+High-Performance+UIs;Always+learning+and+coding..." alt="Typing Indicator" />
-</h3>
-
-<br />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=High-Performance+Web+Apps;React+%26+Next.js+Specialist;TypeScript+Enthusiast;Building+Seamless+User+Experiences" alt="Typing Indicator" />
+</p>
 
 <div align="center">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/arabyhossainabid/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:arabyhossainabid@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://arabyhossainabid.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-252F3F?style=for-the-badge&logo=Vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
 </div>
 
 <br />
 
-### 👨‍💻 About Me
+## 💫 About Me
 
-- 🚀 Currently working as a **Frontend Developer** specializing in React.js and Next.js.
-- 💡 Passionate about clean UI, performance optimization, and mobile-first design.
-- 🛠️ Currently building amazing web apps using **TypeScript, Tailwind CSS, Prisma, and PostgreSQL**.
-- 💬 Ask me about: **React, Next.js, Tailwind, or anything Frontend!**
-- 📫 How to reach me: **arabyhossainabid@gmail.com**
+I am a **Frontend Engineer** who bridges the gap between robust engineering and exceptional user experience. Specializing in the **Next.js ecosystem**, I build scalable, high-performance web applications that are as beautiful as they are functional.
 
-<br />
+- ⚡ **Expertise:** React, Next.js (App Router), TypeScript, Tailwind CSS.
+- 🏗️ **Core Focus:** Building maintainable, component-driven architectures & performance optimization.
+- 🚀 **Past Work:** Architected platforms for Real Estate Investment & Restaurant Management.
+- 💡 **Passion:** Converting complex requirements into clean, accessible code.
 
-### 🛠️ Tech Stack & Tools
+---
+
+## 🛠️ Tech Stack
+
+### 🎨 Frontend & UI/UX
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,shadcn,html,css" alt="Frontend skills" />
+</p>
+
+### ⚙️ Backend & Database
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,prisma,mongodb,firebase" alt="Backend skills" />
+</p>
+
+### 🔧 Tools & Deploy
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,pnpm,figma,postman" alt="Tools" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+- 🍕 **FoodHub:** A full-stack restaurant management platform with Stripe integration.
+- 🏠 **Prop Share:** A premium fractional real estate investment platform frontend.
+- 🍜 **Ramen Shop:** An immersive 3D/Experience web project (Currently building).
+
+---
+
+## 📊 Analytics & Stats
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,html,css" alt="Frontend Tools" />
-  <br /> <br />
-  <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma,git,github,vscode,vercel" alt="Backend & Other Tools" />
+  <img src="https://github-readme-stats.vercel.app/api?username=arabyhossainabid&show_icons=true&theme=transparent&hide_border=true&title_color=3B82F6&text_color=ffffff&icon_color=3B82F6" alt="Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arabyhossainabid&theme=transparent&hide_border=true&stroke=3B82F6&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" alt="Streak" width="48%" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arabyhossainabid&layout=compact&theme=transparent&hide_border=true&title_color=3B82F6&text_color=ffffff" alt="Top Langs" width="50%" />
 </div>
 
 <br />
 
-### 📊 GitHub Analytics
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arabyhossainabid&show_icons=true&theme=tokyonight&hide_border=true&title_color=2196F3" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arabyhossainabid&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="48%" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arabyhossainabid&layout=compact&theme=tokyonight&hide_border=true&title_color=2196F3" alt="Top Languages" width="50%" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" alt="Footer Banner" />
 </div>

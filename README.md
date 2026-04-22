@@ -34,15 +34,15 @@
 
 ---
 
-## 🧑💻 About Me
+## About Me
 
 ### **Araby Hossain Abid**
 **Frontend Systems Architect**
 
-- 🚀 **Expertise:** React.js, Next.js, and TypeScript
-- 🎯 **Mission:** Transforming complex requirements into seamless digital experiences
-- 💡 **Philosophy:** Robust engineering combined with Exceptional User Experience
-- 🤝 **Collaboration:** Always open to high-impact challenges and architectural collaborations
+- **Expertise:** React.js, Next.js, and TypeScript
+- **Mission:** Transforming complex requirements into seamless digital experiences
+- **Philosophy:** Robust engineering combined with Exceptional User Experience
+- **Collaboration:** Always open to high-impact challenges and architectural collaborations
 
 I am a results-driven **Frontend Developer** specializing in building high-performance, scalable web applications. My core expertise lies at the intersection of robust engineering and exceptional user experience. I have extensive experience architecting complex solutions—from fractional real estate investment platforms to comprehensive dashboard systems—always with a focus on **mobile-first design** and **clean code architecture**.
 
@@ -121,10 +121,6 @@ I am a results-driven **Frontend Developer** specializing in building high-perfo
 
 <div align="center">
 
-**Building the Future with Code & Creativity**
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&text=Building%20the%20Future%20with%20Code%20%26%20Creativity&fontSize=32&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%" />
 
 </div>

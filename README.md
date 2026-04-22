@@ -116,12 +116,8 @@ I am a results-driven **Frontend Developer** specializing in building high-perfo
 
 ---
 
+<p align="center">✨ <b>Building the Future with Code & Creativity</b> ✨</p>
+
 <div align="center">
-
-### **Building the Future with Code & Creativity**
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=fadeIn" width="100%" />
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer" width="100%" />
 </div>

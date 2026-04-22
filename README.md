@@ -1,89 +1,93 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=3B82F6&height=250&section=header&text=Araby%20Hossain%20Abid&fontSize=80&fontAlignY=35&desc=Frontend%20Systems%20Engineer%20|%20Next.js%20&%20TypeScript%20Architect&descAlignY=55&animation=twinkling" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3B82F6&height=250&section=header&text=Araby%20Hossain%20Abid&fontSize=80&fontAlignY=35&desc=Frontend%20Developer%20|%20Scalable%20Web%20Architect&descAlignY=55&animation=twinkling" alt="Header" />
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=800&lines=%E2%9E%A4+Building+Deterministic+Web+Architectures;%E2%9E%A4+Specializing+in+Next.js+15+%26+TypeScript;%E2%9E%A4+Crafting+Premium+User+Experiences;%E2%9E%A4+Obsessed+with+Performance+Optimization" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=3B82F6&center=true&vCenter=true&width=800&lines=%E2%9E%A4+Transforming+ideas+into+high-performance+apps;%E2%9E%A4+Specializing+in+React.js+%26+Next.js;%E2%9E%A4+Obsessed+with+Clean+Architecture+%26+UI/UX;%E2%9E%A4+Building+mobile-first%2C+accessible+interfaces" alt="Typing SVG" />
 </p>
 
+<!-- SOCIALS & VISITS -->
 <div align="center">
-  <a href="https://arabyhossainabid.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/arabyhossainabid/" target="_blank"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:arabyhossainabid@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.facebook.com/arabyhossainabid.dev" target="_blank"><img src="https://img.shields.io/badge/Facebook-%231877F2?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/></a>
+  <a href="https://www.linkedin.com/in/arabyhossainabid/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://mastodon.social/@ArabyHossainAbid" target="_blank"><img src="https://img.shields.io/badge/Mastodon-%232B90D9?style=for-the-badge&logo=mastodon&logoColor=white" alt="Mastodon"/></a>
+  <a href="mailto:arabyhossainabid@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <br><br>
+  <img src="https://komarev.com/ghpvc/?username=arabyhossainabid&label=Profile%20Views&color=3B82F6&style=flat-square" alt="Profile Views" />
 </div>
 
 <br />
 
 ---
 
-## 🛰️ Mission Control Center
+## 💫 About Me
 
-I am a **Frontend Systems Engineer** dedicated to bridging the gap between sophisticated backend logic and pixel-perfect user interfaces. I specialize in the **modern JavaScript ecosystem**, focusing on scalability, type safety, and core web vitals.
+As a **Frontend Developer**, I specialize in transforming complex requirements into clean, high-performance, and scalable web applications. My core expertise lies at the intersection of robust engineering and exceptional user experience.
 
-### 🛡️ Core Engineering Values
-- **Determinism:** Ensuring UI states are predictable and bug-free via strict TypeScript.
-- **Fluidity:** Implementing 60FPS animations and seamless transitions.
-- **Scalability:** Architecting modular, atomic design systems that grow with the product.
-- **Accessibility:** Building inclusive web experiences for everyone.
+With a strong foundation in the modern JavaScript ecosystem (**React.js, Next.js, and TypeScript**), I build responsive, accessible, and heavily optimized user interfaces. From architecting the frontend for real estate investment platforms to developing comprehensive dashboards for restaurant management, I focus on delivering seamless, mobile-first solutions that drive user engagement.
+
+Beyond just writing functional code, I care deeply about performance optimization, code-splitting, and building maintainable, component-driven architectures. I thrive in collaborative environments where I can tackle complex technical challenges, contribute to design systems, and continuously push the boundaries of modern web development.
+
+> **💡 I am always open to exploring new engineering opportunities, discussing modern web architecture, or collaborating on innovative projects. Let's connect to build something impactful!**
 
 ---
 
-## 🏆 Achievements & Reputation
+## 💻 Technical Arsenal
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=arabyhossainabid&theme=tokyonight&no-bg=true&margin-w=15" alt="Trophies" />
+  
+### Frontend & UI
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-000000?style=for-the-badge&logo=next.js&logoColor=white) 
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) 
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
+![DaisyUI](https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white) 
+![Radix UI](https://img.shields.io/badge/radix%20ui-161618.svg?style=for-the-badge&logo=radix-ui&logoColor=white)
+
+### Backend & Databases
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) 
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) 
+![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white) 
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) 
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) 
+
+### Cloud, Tools & Deployment
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) 
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) 
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) 
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) 
+![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) 
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) 
+![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220) 
+
 </div>
 
 ---
 
-## 🛠️ Technical Arsenal
-
-### 🎨 Frontend Mastery
-| Technology | Proficiency | Usage |
-| :--- | :--- | :--- |
-| **Next.js 15 / React** | Expert | SSR, ISR, Server Components |
-| **TypeScript** | Advanced | Strict Type Checking, Generic Patterns |
-| **Tailwind CSS** | Expert | Utility-first architecture, Design Systems |
-| **Three.js** | Intermediate | 3D Experiences, WebGL Shaders |
-
-### ⚙️ Systems & Persistence
-| Category | Stack |
-| :--- | :--- |
-| **Backend** | Node.js, Express, Next Auth (V5) |
-| **Database** | PostgreSQL, MongoDB, Prisma ORM |
-| **State** | TanStack Query, Redux Toolkit, Context API |
-| **Testing** | Jest, Playwright, Vitest |
-
----
-
-## 📖 Current Research & Development
-
-- 🧬 **Researching:** Advanced Server Actions and Parallel Routing in Next.js.
-- 🏗️ **Architecting:** A multi-tenant SaaS dashboard with real-time analytics.
-- 🎨 **Exploring:** Creative coding with Framer Motion and GSAP for complex choreographies.
-
----
-
-## 📊 Analytics Dashboard
+## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arabyhossainabid&show_icons=true&theme=transparent&hide_border=true&title_color=3B82F6&text_color=ffffff&icon_color=3B82F6&count_private=true&include_all_commits=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arabyhossainabid&theme=transparent&hide_border=true&stroke=3B82F6&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" width="48%" />
+  <img src="https://github-readme-stats.shion.dev/api?username=arabyhossainabid&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="48%" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com/?user=arabyhossainabid&theme=tokyonight&hide_border=true" width="48%" alt="GitHub Streak" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arabyhossainabid&layout=compact&theme=transparent&hide_border=true&title_color=3B82F6&text_color=ffffff" width="45%" />
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,html,css,git,github,vscode,vercel,pnpm" width="50%" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arabyhossainabid&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" width="50%" alt="Top Languages" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=3B82F6&height=100&section=footer&text=Code%20is%20the%20Canvas%20|%20Innovation%20is%20the%20Paint&fontSize=30&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=3B82F6&height=100&section=footer&text=Turning%20Coffee%20into%20Code%20%E2%98%95&fontSize=30&animation=fadeIn" />
 </div>
 
-<p align="center">
-  <i>"I don't just write code; I engineer digital legacies."</i>
-</p>

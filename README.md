@@ -27,9 +27,6 @@
 
 <br/><br/>
 
-<!-- PROFILE VIEWS BADGE -->
-<img src="https://komarev.com/ghpvc/?username=arabyhossainabid&label=Profile+Views&color=60A5FA&style=flat-square" />
-
 </div>
 
 ---
@@ -121,6 +118,10 @@ I am a results-driven **Frontend Developer** specializing in building high-perfo
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&text=Building%20the%20Future%20with%20Code%20%26%20Creativity&fontSize=32&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%" />
+### **Building the Future with Code & Creativity**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=fadeIn" width="100%" />
 
 </div>

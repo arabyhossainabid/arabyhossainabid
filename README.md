@@ -10,8 +10,8 @@
 <div align="center">
   <a href="https://www.facebook.com/arabyhossainabid.dev" target="_blank"><img src="https://img.shields.io/badge/Facebook-%231877F2?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/></a>
   <a href="https://www.linkedin.com/in/arabyhossainabid/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://mastodon.social/@ArabyHossainAbid" target="_blank"><img src="https://img.shields.io/badge/Mastodon-%232B90D9?style=for-the-badge&logo=mastodon&logoColor=white" alt="Mastodon"/></a>
-  <a href="mailto:arabyhossainabid@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://arabyhossainabid.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://drive.google.com/file/d/14UnIA09xJTwsgHgsD5jhFFuWwsf_NMc9/view?usp=drive_link" target="_blank"><img src="https://img.shields.io/badge/Resume-059669?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Resume"/></a>
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=arabyhossainabid&label=Profile%20Views&color=3B82F6&style=flat-square" alt="Profile Views" />
 </div>
@@ -88,5 +88,5 @@ Beyond just writing functional code, I care deeply about performance optimizatio
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=3B82F6&height=100&section=footer&text=Building%20Real-World%20Web%20Experiences&fontSize=30&animation=fadeIn" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3B82F6&height=150&section=footer" alt="Footer Banner" />
 </div>

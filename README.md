@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Araby%20Hossain%20Abid&fontSize=72&fontAlignY=38&fontColor=ffffff&desc=Frontend%20Developer%20%7C%20Scalable%20Web%20Architect&descAlignY=58&descSize=22&animation=fadeIn" width="100%" />
 
 <!-- ANIMATED TYPING SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=60A5FA&center=true&vCenter=true&multiline=false&repeat=true&width=750&height=45&lines=%E2%9C%A6+Transforming+ideas+into+high-performance+apps;%E2%9C%A6+Specializing+in+React.js+%26+Next.js+ecosystems;%E2%9C%A6+Obsessed+with+Clean+Architecture+%26+UI%2FUX;%E2%9C%A6+Building+mobile-first%2C+accessible+interfaces;%E2%9C%A6+Open+to+new+opportunities+%26+collaborations" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=60A5FA&center=true&vCenter=true&width=750&height=45&lines=%E2%9C%A6+Transforming+ideas+into+high-performance+apps;%E2%9C%A6+Specializing+in+React.js+%26+Next.js+ecosystems;%E2%9C%A6+Obsessed+with+Clean+Architecture+%26+UI%2FUX;%E2%9C%A6+Building+mobile-first%2C+accessible+interfaces;%E2%9C%A6+Open+to+new+opportunities+%26+collaborations" alt="Typing Animation" />
 
 <br/>
 
@@ -36,20 +36,15 @@
 
 ## 🧑💻 About Me
 
-```typescript
-const araby = {
-  name:       "Araby Hossain Abid",
-  role:       "Frontend Systems Architect",
-  expertise:  ["React.js", "Next.js", "TypeScript"],
-  mission:    "Transforming complex requirements into seamless digital experiences",
-  philosophy: "Robust engineering + Exceptional User Experience",
-  openTo:     "High-impact collaborations & architectural challenges"
-};
-```
+### **Araby Hossain Abid**
+**Frontend Systems Architect**
 
-I am a results-driven **Frontend Developer** specializing in building high-performance, scalable web applications. My core expertise lies at the intersection of robust engineering and exceptional user experience.
+- 🚀 **Expertise:** React.js, Next.js, and TypeScript
+- 🎯 **Mission:** Transforming complex requirements into seamless digital experiences
+- 💡 **Philosophy:** Robust engineering combined with Exceptional User Experience
+- 🤝 **Collaboration:** Always open to high-impact challenges and architectural collaborations
 
-With a strong foundation in the modern JavaScript ecosystem (**React.js, Next.js, and TypeScript**), I build responsive, accessible, and heavily optimized user interfaces. I have extensive experience architecting complex solutions—from fractional real estate investment platforms to comprehensive dashboard systems—always with a focus on **mobile-first design** and **clean code architecture**.
+I am a results-driven **Frontend Developer** specializing in building high-performance, scalable web applications. My core expertise lies at the intersection of robust engineering and exceptional user experience. I have extensive experience architecting complex solutions—from fractional real estate investment platforms to comprehensive dashboard systems—always with a focus on **mobile-first design** and **clean code architecture**.
 
 ---
 
@@ -126,10 +121,10 @@ With a strong foundation in the modern JavaScript ecosystem (**React.js, Next.js
 
 <div align="center">
 
-*"Great software is built at the intersection of engineering discipline and creative vision."*
+**Building the Future with Code & Creativity**
 
-</div>
+<br/>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer&animation=fadeIn" width="100%" />
+
 </div>

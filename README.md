@@ -27,8 +27,6 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=arabyhossainabid&label=Profile+Views&color=60A5FA&style=flat-square" />
-
 </div>
 
 ---
@@ -94,14 +92,14 @@ I am a results-driven **Frontend Developer** specializing in building high-perfo
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=arabyhossainabid&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" height="180" alt="GitHub Stats" />
+<img src="https://github-readme-stats.shion.dev/api?username=arabyhossainabid&theme=tokyonight&hide_border=true&show_icons=true" height="180" alt="GitHub Stats" />
 &nbsp;&nbsp;
 <img src="https://streak-stats.demolab.com/?user=arabyhossainabid&theme=tokyonight&hide_border=true" height="180" alt="GitHub Streak" />
 
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arabyhossainabid&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8" height="160" alt="Top Languages" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arabyhossainabid&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" height="160" alt="Top Languages" />
 </div>
 
 <br/>

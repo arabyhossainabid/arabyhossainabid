@@ -34,22 +34,24 @@
 
 ---
 
-## 🧑‍💻 About Me
+## 🧑💻 About Me
 
 ```typescript
 const araby = {
   name:       "Araby Hossain Abid",
-  title:      "Frontend Developer & Scalable Web Architect",
-  location:   "Bangladesh 🇧🇩",
-  focus:      ["React.js", "Next.js", "TypeScript"],
-  passions:   ["Clean Architecture", "UI/UX", "Performance Optimization"],
-  currentWork: "Building responsive, mobile-first web applications",
-  openTo:     "New opportunities, collabs & open-source projects",
-  funFact:    "I debug with console.log and I'm not ashamed 😄",
+  role:       "Frontend Systems Architect",
+  expertise:  ["React.js", "Next.js", "TypeScript"],
+  mission:    "Transforming complex requirements into seamless digital experiences",
+  philosophy: "Robust engineering + Exceptional User Experience",
+  openTo:     "High-impact collaborations & architectural challenges"
 };
 ```
 
-> 💡 **I specialize in transforming complex requirements into clean, high-performance, and scalable web applications.** From real estate investment platforms to restaurant management dashboards — I focus on delivering seamless user experiences backed by solid engineering.
+I am a results-driven **Frontend Developer** specializing in building high-performance, scalable web applications. My core expertise lies at the intersection of robust engineering and exceptional user experience.
+
+With a strong foundation in the modern JavaScript ecosystem (**React.js, Next.js, and TypeScript**), I build responsive, accessible, and heavily optimized user interfaces. I have extensive experience architecting complex solutions—from fractional real estate investment platforms to comprehensive dashboard systems—always with a focus on **mobile-first design** and **clean code architecture**.
+
+I thrive in collaborative environments where I can tackle complex technical challenges, contribute to design systems, and continuously push the boundaries of modern web development. My goal is to build software that not only functions flawlessly but also provides a premium feel to the end-user.
 
 ---
 
@@ -121,44 +123,6 @@ const araby = {
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=arabyhossainabid&theme=tokyonight&no-frame=true&no-bg=false&margin-w=8&column=7" width="95%" alt="GitHub Trophies" />
 </div>
-
----
-
-## 📈 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arabyhossainabid/arabyhossainabid/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arabyhossainabid/arabyhossainabid/output/github-snake.svg" />
-    <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/arabyhossainabid/arabyhossainabid/output/github-snake.svg" width="95%" />
-  </picture>
-</div>
-
-> **⚙️ To enable the snake animation**, add this GitHub Actions workflow to your profile repo at `.github/workflows/snake.yml`:
-> 
-> ```yaml
-> name: Generate Snake Animation
-> on:
->   schedule:
->     - cron: "0 */12 * * *"
->   workflow_dispatch:
-> jobs:
->   generate:
->     runs-on: ubuntu-latest
->     steps:
->       - uses: Platane/snk/svg-only@v3
->         with:
->           github_user_name: arabyhossainabid
->           outputs: |
->             dist/github-snake.svg
->             dist/github-snake-dark.svg?palette=github-dark
->       - uses: crazy-max/ghaction-github-pages@v3
->         with:
->           target_branch: output
->           build_dir: dist
->         env:
->           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-> ```
 
 ---
 

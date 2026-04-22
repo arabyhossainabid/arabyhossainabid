@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Araby%20Hossain%20Abid&fontSize=70&fontAlignY=35&desc=Frontend%20Engineer%20|%20React%20&%20Next.js%20Specialist&descAlignY=55&animation=fadeIn" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=250&section=header&text=Araby%20Hossain%20Abid&fontSize=80&fontAlignY=35&desc=Frontend%20Systems%20Architect%20|%20Next.js%20Expertise&descAlignY=55&animation=twinkling" alt="Header Banner" />
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=High-Performance+Web+Apps;React+%26+Next.js+Specialist;TypeScript+Enthusiast;Building+Seamless+User+Experiences" alt="Typing Indicator" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=%E2%9E%A4+Crafting+High-Performance+Web+Systems;%E2%9E%A4+Building+Scalable+Next.js+Architectures;%E2%9E%A4+TypeScript+%26+Tailwind+CSS+Expert;%E2%9E%A4+Focused+on+Premium+UX/UI" alt="Typing Indicator" />
 </p>
 
 <div align="center">
@@ -20,48 +20,59 @@
 
 <br />
 
-## 💫 About Me
+## 🛰️ Professional Overview
 
-I am a **Frontend Engineer** who bridges the gap between robust engineering and exceptional user experience. Specializing in the **Next.js ecosystem**, I build scalable, high-performance web applications that are as beautiful as they are functional.
+I am a **Frontend Systems Architect** specializing in building deterministic, high-performance web applications. My approach combines rigorous engineering principles with refined design aesthetics, focusing heavily on the **Next.js ecosystem**.
 
-- ⚡ **Expertise:** React, Next.js (App Router), TypeScript, Tailwind CSS.
-- 🏗️ **Core Focus:** Building maintainable, component-driven architectures & performance optimization.
-- 🚀 **Past Work:** Architected platforms for Real Estate Investment & Restaurant Management.
-- 💡 **Passion:** Converting complex requirements into clean, accessible code.
-
----
-
-## 🛠️ Tech Stack
-
-### 🎨 Frontend & UI/UX
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,shadcn,html,css" alt="Frontend skills" />
-</p>
-
-### ⚙️ Backend & Database
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,prisma,mongodb,firebase" alt="Backend skills" />
-</p>
-
-### 🔧 Tools & Deploy
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,pnpm,figma,postman" alt="Tools" />
-</p>
+### 🧪 Core Philosophies
+| Principle | Description |
+| :--- | :--- |
+| **Performance First** | Optimizing for Core Web Vitals and zero cumulative layout shift. |
+| **Type Safety** | Strict TypeScript implementation across the full stack for maintainability. |
+| **UI/UX Precision** | Pixel-perfect implementation with accessible and inclusive design patterns. |
+| **Clean Architecture** | Decoupling logic from presentation for scalable codebase. |
 
 ---
 
-## 🚀 Featured Projects
+## 🛠️ Technical Ecosystem
 
-- 🍕 **FoodHub:** A full-stack restaurant management platform with Stripe integration.
-- 🏠 **Prop Share:** A premium fractional real estate investment platform frontend.
-- 🍜 **Ramen Shop:** An immersive 3D/Experience web project (Currently building).
+### 💻 Development Dashboard
+| Category | Stack & Tools |
+| :--- | :--- |
+| **Frontend Frameworks** | React, Next.js (App Router), TypeScript (ES6+) |
+| **Styling & UI Systems** | Tailwind CSS, Shadcn UI, Framer Motion, CSS Modules |
+| **State & Logic** | React Hook Form, Zod, React Query, Context API |
+| **Backend & Persistence** | Node.js, Prisma ORM, PostgreSQL, MongoDB, Firebase |
+| **Infrastructure** | Vercel, Git/GitHub, Pnpm, Postman, Figma |
 
 ---
 
-## 📊 Analytics & Stats
+## 📖 Development Workflow & Documentation
+
+### 🛡️ Coding Standards
+- **Modular Components:** Atomic design structure for maximum reusability.
+- **Git Flow:** Strict branching strategies and documentation via meaningful commits.
+- **Continuous Learning:** Actively exploring newer Next.js releases (v15+) and server action patterns.
+
+### 🎯 Key Engineering Achievements
+- **Real-Time Logistics:** Implemented Stripe webhooks for instant order updates in FoodHub.
+- **Immersive 3D:** Currently integrating Three.js/Fiber for high-interaction project environments.
+- **Schema Validation:** Zero-runtime-error architectures using Zod-Prisma synchronization.
+
+---
+
+## 🚀 Projects & Contributions
+
+- 🥟 **FoodHub:** Comprehensive SaaS for restaurant management (Next.js, PostgreSQL).
+- 🏘️ **Prop Share:** Institutional-grade real estate investment platform UI.
+- 🎮 **Ramen Shop:** Immersive 3D experience using modern WebGL technologies.
+
+---
+
+## 📊 Performance Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arabyhossainabid&show_icons=true&theme=transparent&hide_border=true&title_color=3B82F6&text_color=ffffff&icon_color=3B82F6" alt="Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=arabyhossainabid&show_icons=true&theme=transparent&hide_border=true&title_color=3B82F6&text_color=ffffff&icon_color=3B82F6&count_private=true" alt="Stats" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=arabyhossainabid&theme=transparent&hide_border=true&stroke=3B82F6&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" alt="Streak" width="48%" />
 </div>
 
@@ -72,5 +83,5 @@ I am a **Frontend Engineer** who bridges the gap between robust engineering and 
 <br />
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=auto&height=100&section=footer&text=Code%20is%20Art%20|%202026&fontSize=30&animation=fadeIn" alt="Footer Banner" />
 </div>
